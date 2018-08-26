@@ -1,5 +1,10 @@
+body{
+  background-color: lightblue;
+}
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -21,7 +26,40 @@
 .App-intro {
   font-size: large;
 }
+#rock img{
+  width:300px;
+}
+#country img{
+  width:300px;
+}
+#jazz img{
+  width:300px;
+}
+#rap img{
+  width:300px;
+}
+#Genres{
+  display: flex;
+  flex-wrap : wrap;
+  justify-content: center;
 
+
+}
+#Genres div{
+  border: solid;
+  margin: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
+}
+#Header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
